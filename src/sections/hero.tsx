@@ -21,9 +21,9 @@ export default function Hero() {
 
 
   return (
-   <div className='relative min-h-screen min-w-screen p-8'>
+   <div className='relative min-h-screen min-w-screen p-8 z-10'>
      <Header/>
-      <div className='bg-link-green/5 absolute top-[-140px] left-[-30px] w-[780px]  h-[670px]  rounded-4xl -rotate-y-20 -rotate-x-20  origin-bottom-left' />
+      <div className='bg-link-green/5 absolute top-[-140px] left-[-30px] w-[780px]  h-[670px]  rounded-4xl -rotate-y-20 -rotate-x-20  origin-bottom-left z-[-10]' />
     <div className='flex mt-10'>
       <div className="flex-1 flex flex-col gap-7 justify-center">
         <h1 className='font-bold'>Find a <span className='text-link-green text-4xl'>job</span> easily</h1>
