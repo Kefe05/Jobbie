@@ -1,5 +1,5 @@
 import { AlignJustify } from "lucide-react";
-import { MobileNav, links } from "./mobile-nav";
+import {  links } from "./mobile-nav";
 
 
 export default function Header(){
@@ -26,7 +26,8 @@ export default function Header(){
                     <a href="#" className="bg-link-green/10 hover:bg-link-green/20 transition p-2 rounded-3xl w-24 text-center text-gray-700">Log in</a>
                 </div>
 
-             <AlignJustify className="block lg:hidden"/>   
+             <AlignJustify className="block lg:hidden"/>
+                
 
         </header>
     )
