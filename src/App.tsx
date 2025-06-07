@@ -12,7 +12,7 @@ function App() {
  
 
   return (
-   <main className='bg-gray-50 min-h-screen min-w-screen'>
+   <main className='bg-gray-50 min-h-screen min-w-screen p-8'>
     <Hero />
     <Listings />
     <How/>
